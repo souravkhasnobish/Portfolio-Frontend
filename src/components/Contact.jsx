@@ -8,7 +8,7 @@ const Contact = () => {
         <h1 className="text-3xl font-bold mb-4">Contact me</h1>
         <span>Please fill out the form below to contact me</span>
         <div className="flex flex-col items-center justify-center">
-          <form className="bg-slate-200 w-full max-w-md px-4 py-6 rounded-xl">
+          <form className="bg-slate-200 w-full max-w-md px-4 py-6 rounded-xl mt-8">
             <h1 className="text-xl font-semibold mb-4 text-black">
               Send Your Message
             </h1>

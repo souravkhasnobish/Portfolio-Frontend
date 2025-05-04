@@ -92,9 +92,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:mt-20 mt-8 order-1 flex justify-center md:justify-start md:pl-20">
+          <div className="md:mt-20 xl:ml-50 mt-8 order-1 flex justify-center md:justify-start p-2">
             <img
-              src="../../public/Profile.jpeg"
+              src="../../public/Profile.png"
               className="rounded-full w-36 sm:w-48 h-36 sm:h-48 md:w-[450px] md:h-[450px] object-cover"
               alt=""
             />
