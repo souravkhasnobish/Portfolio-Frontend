@@ -2,7 +2,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
-
+import image from '../assets/Profile.png';
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -94,7 +94,7 @@ const Home = () => {
           </div>
           <div className="md:mt-20 xl:ml-50 mt-8 order-1 flex justify-center md:justify-start p-2">
             <img
-              src="../../public/Profile.png"
+              src={image}
               className="rounded-full w-36 sm:w-48 h-36 sm:h-48 md:w-[450px] md:h-[450px] object-cover"
               alt=""
             />
