@@ -21,7 +21,7 @@ const Contact = () => {
 
     try {
       const res = await fetch(
-        "https://backend-blue-zeta-20.vercel.app/api/contact",
+        "https://portfolio-backend-production-fc6f.up.railway.app/api/contact",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
