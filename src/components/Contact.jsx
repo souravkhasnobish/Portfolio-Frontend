@@ -21,7 +21,7 @@ const Contact = () => {
 
     try {
       const res = await fetch(
-        "https://https://backend-blue-zeta-20.vercel.app/api/contact",
+        `${import.meta.env.VITE_BACKEND_LINK}/api/contact`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
