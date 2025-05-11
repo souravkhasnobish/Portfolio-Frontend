@@ -21,7 +21,7 @@ const Contact = () => {
 
     try {
       const res = await fetch(
-      "https://localhost:5000/api/contact",
+        "https://portfolio-backend-omega-nine.vercel.app/api/contact",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
