@@ -18,9 +18,9 @@ const Home = () => {
         className="max-w-screen-2xl container mx-auto md:px-20 m-5"
       >
         <div className="flex flex-col md:flex-row sm:gap-10 ">
-          <div className="md:w-1/2 p-4 mt-8 md:mt-24 md:pt-10 space-y-2 order-2 md:order-1">
-            <span className="text-lg sm:text-xl">Welcome In My Feed</span>
-            <div className="flex space-x-2  text-lg lg:text-3xl  items-center flex-wrap">
+          <div className="md:w-1/2 p-4 mt-8 md:mt-24 md:pt-10 space-y-2 order-2 md:order-1 ">
+            <span className="md:text-2xl sm:text-xl">Welcome In My Feed</span>
+            <div className="flex space-x-2  sm:text-2xl  items-center flex-wrap">
               <h1>Hello, I&apos;m a</h1>
 
               <ReactTyped
@@ -32,7 +32,7 @@ const Home = () => {
               />
             </div>
             <br />
-            <p className="text-lg sm:text-xl md:text-md text-justify">
+            <p className="sm:text-xl md:text-2xl text-justify tracking-normal">
               LET&apos;S BUILD SOMETHING AMAZING TOGETHER
             </p>
             <br />
@@ -40,7 +40,7 @@ const Home = () => {
             <div className="flex flex-col md:flex-row md:space-y-0 space-y-6 justify-between items-center">
               <div className="space-y-2 ">
                 <h1 className="font-bold  text-center">Available on</h1>
-                <ul className="flex flex-wrap justify-center md:justify-start gap-5 md:gap-2">
+                <ul className="flex flex-wrap justify-center md:justify-start gap-5 md:gap-2 lg:gap-5">
                   <li>
                     <a
                       href="https://www.instagram.com/crew_igl/"
@@ -75,7 +75,7 @@ const Home = () => {
               {/* Currently working on section */}
               <div className="space-y-2 ml-3">
                 <h1 className="font-bold text-center">Currently Working on</h1>
-                <ul className="flex flex-wrap gap-5 justify-center  md:gap-2 ">
+                <ul className="flex flex-wrap gap-5 justify-center  md:gap-2 lg:gap-5">
                   <li>
                     <SiMongodb className="text-xl md:text-xl lg-text-2xl hover:scale-110 duration-200 rounded-full" />
                   </li>
@@ -92,10 +92,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className=" mt-20 md:mt-20 xl:ml-50 order-1 flex justify-center md:justify-start ">
+          <div className=" mt-20 md:mt-20 md:ml-10 xl:ml-50 order-1 flex justify-center md:justify-start ">
             <img
               src={image}
-              className="rounded-full  w-50 h-50 sm:w-48 sm:h-48  md:mr-10  md:w-[300px] md:h-[300px] xl:w-[450px] xl:h-[450px] xl:mr-5 xl:mb-5 object-cover"
+              className="rounded-full  w-50 h-50 sm:w-48 sm:h-48 md:w-[300px] md:h-[300px] xl:w-[450px] xl:h-[450px] xl:mr-5 xl:mb-5 object-cover"
               alt=""
             />
           </div>
