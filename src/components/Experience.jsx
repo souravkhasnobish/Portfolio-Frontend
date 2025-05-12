@@ -50,7 +50,7 @@ const Experience = () => {
       <div>
         <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p>I have experience in these technologies</p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 my-3 p-2 gap-x-2">
           {cardItems.map(({ id, logo, name }) => (
             <div
               key={id}
@@ -58,7 +58,7 @@ const Experience = () => {
             >
               <img
                 src={logo}
-                className="max-w-[150px] max-h-[150px] object-contain"
+                className="md:max-w-[150px] md:max-h-[150px] sm:max-w-[100px] sm:max-h-[100px] object-contain"
                 alt=""
               />
               <div>
