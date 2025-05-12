@@ -48,10 +48,10 @@ const Navbar = () => {
           darkMode ? "bg-gray-900" : "bg-white"
         }`}
       >
-        <div className="flex justify-between items-center h-16">
-          <div className="flex space-x-2">
+        <div className="flex justify-between items-center h-16 lg:mr-5">
+          <div className="flex space-x-2 lg:">
             <h1
-              className={`font-bold text-xl cursor-pointer${
+              className={`font-bold text-xl p-3 cursor-pointer${
                 darkMode ? "text-gray-100" : "text-gray-900"
               }`}
             >
@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navbar */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 ">
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
                 <li
@@ -108,7 +108,11 @@ const Navbar = () => {
         {/* mobile Navbar */}
         {menu && (
           <div
-            className={`${darkMode ? "text-gray-100 bg-gray-800"  : "text-gray-900 bg-gray-300"}`}
+            className={`${
+              darkMode
+                ? "text-gray-100 bg-gray-800"
+                : "text-gray-900 bg-gray-300"
+            }`}
           >
             <ul
               className={`md:hidden flex flex-col h-screen items-center justify-center  text-xl ${
