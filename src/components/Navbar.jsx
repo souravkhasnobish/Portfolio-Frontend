@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
-import { BsSun, BsMoon, BsSlack } from "react-icons/bs";
+import { BsSun, BsMoon, } from "react-icons/bs";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -94,12 +94,12 @@ const Navbar = () => {
               {menu ? (
                 <IoCloseSharp
                   size={24}
-                  color={darkMode ? undefined : "#ffffff"}
+                  color={darkMode ? "bg-white" : "bg-black"}
                 />
               ) : (
                 <AiOutlineMenu
                   size={24}
-                  color={darkMode ? undefined : "#ffffff"}
+                  color={darkMode ? "bg-white" : "bg-black"}
                 />
               )}
             </div>
@@ -115,13 +115,13 @@ const Navbar = () => {
             }`}
           >
             <ul
-              className={`md:hidden flex flex-col h-screen items-center justify-center  text-xl ${
+              className={`md:hidden flex flex-col h-screen items-center justify-center text-xl  ${
                 darkMode ? "text-gray-100" : "text-gray-900"
               }`}
             >
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 cursor-pointer font-semibold"
+                  className="hover:scale-105 duration-200 cursor-pointer font-semibold mb-2 "
                   key={id}
                 >
                   <Link
