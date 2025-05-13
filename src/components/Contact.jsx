@@ -69,7 +69,7 @@ const Contact = () => {
               Send Your Message
             </h1>
             <div className="flex flex-col flex mb-4">
-              <label className="block text-gray-700">FullName</label>
+              <label className="block text-gray-700">Full Name</label>
               <input
                 className="shadow rounded-lg py-2 px-3 leading-light bg-white text-black w-full"
                 type="text"
@@ -77,7 +77,7 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Enter your fullname"
+                placeholder="Enter your full name"
                 required
               />
             </div>
