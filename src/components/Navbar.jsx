@@ -49,7 +49,7 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between items-center h-16 lg:mr-5">
-          <div className="flex space-x-2 lg:">
+          <div className="flex space-x-2">
             <h1
               className={`font-bold text-xl p-3 cursor-pointer${
                 darkMode ? "text-gray-100" : "text-gray-900"
