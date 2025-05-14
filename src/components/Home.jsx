@@ -17,8 +17,8 @@ const Home = () => {
         name="Home"
         className="max-w-screen-2xl container mx-auto md:px-20 m-5"
       >
-        <div className="flex flex-col md:flex-row sm:gap-10 ">
-          <div className="md:w-1/2 p-4 mt-8 md:mt-24 md:pt-10 space-y-2 order-2 md:order-1 ">
+        <div className="flex flex-col md:flex-row sm:gap-10 md:gap-25 lg:gap:20">
+          <div className="md:w-2xl lg:w-1/2 p-4 mt-8 md:mt-24 md:pt-10 space-y-2 order-2 md:order-1 ">
             <span className="md:text-2xl sm:text-xl">Welcome In My Feed</span>
             <div className="flex space-x-2  sm:text-2xl  items-center flex-wrap">
               <h1>Hello, I&apos;m a</h1>
@@ -32,7 +32,7 @@ const Home = () => {
               />
             </div>
             <br />
-            <p className="sm:text-xl md:text-2xl text-justify tracking-normal">
+            <p className="sm:text-xl lg:text-2xl text-justify">
               LET&apos;S BUILD SOMETHING AMAZING TOGETHER
             </p>
             <br />
@@ -92,10 +92,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className=" mt-20 md:mt-20 md:ml-10 xl:ml-50 order-1 flex justify-center md:justify-start ">
+          <div className=" mt-20 md:mt-20 md:pt-15 lg:p-2 lg:ml-10 xl:ml-50 order-1 flex justify-center md:justify-start  ">
             <img
               src={image}
-              className="rounded-full  w-50 h-50 sm:w-48 sm:h-48 md:w-[300px] md:h-[300px] xl:w-[450px] xl:h-[450px] xl:mr-5 xl:mb-5 object-cover"
+              className="rounded-full w-50 h-50 sm:w-48 sm:h-48 md:w-[350px] md:h-[200px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[350px] 2xl:w-[400px] 2xl:h-[400px] 2xl:mr-5 xl:mb-5 object-cover"
               alt=""
             />
           </div>
